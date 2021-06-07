@@ -213,17 +213,17 @@ Object literals are data structures used for storing and passing data around.
 ## Make use of modern syntax features
 
 ### Arrow functions (() => {})
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+[arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ### Array spread syntax (...array)
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+[spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
 ### Operational chaining (?.)
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+[optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
 ### Nullish coalescing operator (??)
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
+[nullish coalescing operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
 
 ### Asynchronous programming
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+[async await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+[using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
