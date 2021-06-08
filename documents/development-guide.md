@@ -147,13 +147,11 @@ Everything the function needs must be passed to the function using parameters.
 Functions should not access constants or variables outside its own scope but can call other functions.
 Methods can have access to members of it's class, but not outside the scope of it's class.
 
-Avoid closures as all cost.  
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures  
+Avoid [closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) as all cost.   
 Closures have serious performance detriments. 
 
 Functions should not have more than 3 parameters.  
-Parameters as far as possible should have default values.  
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters  
+Parameters as far as possible should have [default values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters).  
 When you have a complex function or method that can take in a lot of parameters of variations in what parameters may be set, rather use a object literal.
 
 ```js
