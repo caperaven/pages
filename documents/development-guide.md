@@ -225,3 +225,31 @@ Object literals are data structures used for storing and passing data around.
 ### Asynchronous programming
 [async await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
 [using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+
+### var, const, let
+There is really no reason why you should still use the var keyword.    
+By default, you should assign all your code to constants.  
+This should be your natural habit of coding.  
+Only change a const to a let when you make changes to it.  
+
+### prototype vs class
+If you are going to use object orientated programming in javascript, just use class.    
+I know there are some people who just can't get over the prototype pattern, but honestly just let it go.  
+
+### JQuery
+JQuery is dead, not even boostrap wants it anymore.  
+Way to go bootstrap 5!  
+Bare metal javascript is the only way to go.  
+
+### Loop performance
+Though there are a number of loops you can perform in javascript,   
+the following notes look at looping from a performance perspective.
+The browser vendors are making continues improvements on this but as a rule follow these.
+
+<strong>AVOID</strong>
+1. [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) 
+   
+<strong>USE</strong>
+1. [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+1. [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) 
+1. [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
