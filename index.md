@@ -6,6 +6,7 @@ This is a repository of documents for modern web development.
 1. [development guide](documents/development-guide.md)  
 1. [oop vs ecs](documents/oop_vs_ecs.md)  
 1. [framework-less](documents/frameworkless.md)  
+1. [dynamic runtime applications](documents/dynamic-applications.md)
 
 ## CRS Core Technologies
 1. [Router](https://github.com/caperaven/crs-router)
