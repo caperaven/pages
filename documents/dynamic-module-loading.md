@@ -24,7 +24,7 @@ You only want to load the module you need at the time that you need it.
 This is driven through a data- attribute on the custom element called `data-type`.
 
 If the type is "static", load the "static.js" file.  
-If the type is "dynamic", load the "dynamic.js" file.
+If the type is "dynamic", load the "dynamic.js" file.  
 If the type is not defined, load the "virtualized.js" file.
 
 Since there is some conditional logic we want to be able to check on the type we need an enum to define the type options.
