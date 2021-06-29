@@ -54,7 +54,7 @@ The execution code never needs touching again.
 Talking of the execution code, the modules are loaded like this.
 
 ```js
-grid.pages = new (await import(PagingModules[grid.dataset.type])).default(grid);
+grid.rowsManager = new (await import(PagingModules[grid.dataset.type])).default(grid);
 ```
 
 <strong>Note:</strong>
