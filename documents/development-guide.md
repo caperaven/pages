@@ -159,6 +159,24 @@ const isValid2 = !!(options & MyEnum.OPTION2)  // is false
 
 Granted one enum is not going to make much of a difference, but the cumulative effect of many enums over an enterprise application will.
 
+## Structs
+
+Javascript does not have structs as such.  
+You do have object literals and, you can use them in the same way.
+
+```js
+export const device = Object.freeze({
+    MOBILE: "mobile",
+    DESKTOP: "desktop",
+    get(width, maxMobileWidth) {
+        return width <= maxMobileWidth ? device.MOBILE : device.DESKTOP
+    }
+})
+```
+
+In this context, methods must operate in context of the struct and perform either a get or set operation.  
+This means that functions can not operate outside the scope of the struct.
+
 ## Classes vs Functions vs Object Literals
 Not everything should be classes and not everything should be functions.  
 When do I use what and what are the rules.  
