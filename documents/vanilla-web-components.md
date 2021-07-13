@@ -33,6 +33,20 @@ export class MyComponent extends HTMLElement {
 customElements.define("my-component", MyComponent);
 ```
 
+```js
+export class CustomElement extends HTMLDivElement {
+    async connectedCallback() {
+
+    }
+
+    async disconnectedCallback() {
+        
+    }
+}
+
+customElements.define("custom-elementr", CustomElement, { extends: 'div' });
+```
+
 The above example separates the HTML from the javascript.  
 This does mean that you need to download both but in  HTTP2 environment that matters little.  
 What it buys you is clean separation of concern and proper minification.
