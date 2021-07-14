@@ -9,6 +9,7 @@ This is a repository of documents for modern web development.
 1. [dynamic runtime applications](documents/dynamic-applications.md)  
 1. [dynamic module loading](documents/dynamic-module-loading.md) - without crs-modules  
 1. [vanilla web components](documents/vanilla-web-components.md)  
+1. [convention driven factory](documents/factory-example.md)  
 
 ## CRS Core Technologies
 1. [Router](https://github.com/caperaven/crs-router)
